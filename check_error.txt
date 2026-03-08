@@ -1,0 +1,33 @@
+   Compiling getrandom v0.3.4
+    Checking windows_x86_64_gnu v0.53.1
+    Checking crypto-common v0.1.7
+   Compiling synstructure v0.13.2
+    Checking zerocopy v0.8.39
+   Compiling tokio-macros v2.6.0
+   Compiling zerovec-derive v0.11.2
+   Compiling serde v1.0.228
+   Compiling serde_derive v1.0.228
+   Compiling displaydoc v0.2.5
+   Compiling futures-macro v0.3.32
+    Checking futures-task v0.3.32
+    Checking windows-targets v0.53.5
+   Compiling jobserver v0.1.34
+    Checking slab v0.4.12
+    Checking windows-sys v0.60.2
+error: dlltool could not create import library with C:\Users\opcha\scoop\apps\gcc\current\bin\dlltool.exe -d C:\Users\opcha\Downloads\PROJECTS (S - 1) (ongoing)\siriclaw-master (1)\siriclaw\target\debug\deps\rustcB72eEa\bcryptprimitives.dll_imports.def -D bcryptprimitives.dll -l C:\Users\opcha\Downloads\PROJECTS (S - 1) (ongoing)\siriclaw-master (1)\siriclaw\target\debug\deps\rustcB72eEa\bcryptprimitives.dll_imports.lib -m i386:x86-64 -f --64 --no-leading-underscore --temp-prefix C:\Users\opcha\Downloads\PROJECTS (S - 1) (ongoing)\siriclaw-master (1)\siriclaw\target\debug\deps\rustcB72eEa\bcryptprimitives.dll:
+       
+       Assembler messages:␍
+       Error: can't open (S for reading: No such file or directory␍
+       {standard input}: Error: can't open 1) for reading: No such file or directory␍
+       1): Error: can't open (ongoing)\siriclaw-master for reading: No such file or directory␍
+       (ongoing)\siriclaw-master: Error: can't open (1)\siriclaw\target\debug\deps\rustcB72eEa\bcryptprimitives.dllh.o for reading: No such file or directory␍
+       C:\Users\opcha\Downloads\PROJECTS: Error: can't open (S for reading: No such file or directory␍
+       (S: Internal error in input_file_open at ../../src/gas/input-file.c:165.␍
+       Please report this bug.␍
+       C:\Users\opcha\scoop\apps\gcc\current\bin\dlltool.exe: C:\Users\opcha\scoop\apps\gcc\current\bin\as exited with status 1␍
+       C:\Users\opcha\scoop\apps\gcc\current\bin\dlltool.exe: failed to open temporary head file: C:\Users\opcha\Downloads\PROJECTS (S - 1) (ongoing)\siriclaw-master (1)\siriclaw\target\debug\deps\rustcB72eEa\bcryptprimitives.dllh.o: No such file or directory␍
+       
+
+   Compiling aws-lc-rs v1.15.4
+error: could not compile `getrandom` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

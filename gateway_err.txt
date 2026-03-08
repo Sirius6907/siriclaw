@@ -1,0 +1,27 @@
+[2m2026-03-08T13:26:51.698000Z[0m [32m INFO[0m [2msirius::config::schema[0m[2m:[0m Config loaded [3mpath[0m[2m=[0mC:\Users\opcha\.siriusclaw\config.toml [3mworkspace[0m[2m=[0mC:\Users\opcha\.siriusclaw\workspace [3msource[0m[2m=[0m"default" [3minitialized[0m[2m=[0mfalse
+[2m2026-03-08T13:26:51.698098Z[0m [32m INFO[0m [2msirius[0m[2m:[0m ???? Starting SiriClaw Gateway on 127.0.0.1:42617
+sirius : Error: Only 
+one usage of each 
+socket address 
+(protocol/network 
+address/port) is 
+normally permitted. 
+(os error 10048)
+At line:1 char:31
++ $env:RUST_MIN_STACK=6
+7108864; sirius 
+gateway 2>&1 | 
+Out-File -FilePat ...
++                      
+         
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Error: Only o   
+ ne...os error 1004    
+8):String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
